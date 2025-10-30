@@ -1,0 +1,46 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+
+### macOS / Windows ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Build ###
+target/
+build/
+**/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Maven ###
+.mvn/
+dependency-reduced-pom.xml
+
+### Logs ###
+*.log
+
+### Temporary Files ###
+*.tmp
+*.bak
+*.swp
+temp/
+
+### Environment & Config ###
+.env
+*.local
+*.config
