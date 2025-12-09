@@ -89,9 +89,10 @@ public class T23_LockedLinkedList {
 
 		public void printAll() {
 			System.out.println("-----------------------");
+			
+			lock.lock();
 			System.out.println("Counter: " + counter);
 
-			lock.lock();
 			UserData tmp = head.next;
 			while (tmp != tail) {
 				System.out.println(tmp.name);
