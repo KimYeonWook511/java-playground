@@ -1,6 +1,7 @@
 package section9;
 
 import java.util.HashSet;
+import java.util.Objects;
 
 /**
  *  Set의 equals()와 hashCode()의 동작 학습
@@ -62,8 +63,10 @@ public class T3_SetEquals {
 
 		@Override
 		public int hashCode() {
-			System.out.println((name + phone).hashCode());
-			return (name + phone).hashCode();
+			// System.out.println((name + phone).hashCode());
+			// return (name + phone).hashCode();
+			System.out.println(Objects.hash(name, phone));
+			return Objects.hash(name, phone);
 		}
 	}
 }
