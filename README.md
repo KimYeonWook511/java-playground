@@ -11,6 +11,7 @@
 |--------|------------|-----------|
 | `core-playground` | 자바 기본 문법 | 제네릭, 람다, 스트림, 익명 클래스 등 |
 | `concurrency-playground` | 멀티스레드 & 동기화 | Thread, ExecutorService, synchronized, Atomic 등 |
+| `io-network-playground` | 파일 I/O & 네트워크 | 파일, 스트림, 보조 스트림, NIO, 소켓, TCP 소켓 프로그래밍, I/O Multiplexing 등 |
 
 ---
 
@@ -26,4 +27,4 @@
 
 - **Language:** Java 21+
 - **IDE:** IntelliJ IDEA
-- **OS:** macOS / Windows
+- **OS:** macOS
