@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 /**
  * nio 기반 동기 모드 입/출력
- * stream당 channel이 필요 (기존 파일 스트림에 대해 채널을 생성해 사용하는 구조)
+ * stream당 channel을 할당함 (기존 파일 스트림에 대해 채널을 생성해 사용하는 구조)
  * 파일 입/출력을 매핑된 버퍼를 통해 쉽고 효율적으로 처리할 수 있도록 지원함
  * 메모리 매핑 파일(MMF) 지원 (파일을 메모리로 추상화함)
  * zero-copy 지원!!!
  */
-public class T2_FileChannel {
+public class T2_FileStreamChannel {
     private static final String targetPath = System.getProperty("user.dir") + "/tmp/nioTest.dat";
     private static FileOutputStream fos;
     private static FileInputStream fis;
