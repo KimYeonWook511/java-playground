@@ -1,4 +1,4 @@
-package network.section9.socket;
+package network.section9.nio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
