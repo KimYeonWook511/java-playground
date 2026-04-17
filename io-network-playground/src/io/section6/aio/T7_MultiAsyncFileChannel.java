@@ -1,4 +1,4 @@
-package io.section6.nio;
+package io.section6.aio;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

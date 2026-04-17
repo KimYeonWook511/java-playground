@@ -1,4 +1,4 @@
-package io.section6.nio;
+package io.section6.mmf;
 
 import java.io.FileOutputStream;
 import java.io.RandomAccessFile;
